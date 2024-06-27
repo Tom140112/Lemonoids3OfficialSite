@@ -1,0 +1,247 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+#title {
+    font-family: 'Inter var';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 72px;
+    text-align: center;
+    color: #2DC7FF;
+}
+
+#container {
+    padding: 16px 16px
+}
+
+.card {
+    margin: 16px 16px;
+
+    border-style: solid;
+    border-color: rgb(35, 35, 35);
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+#ultimate:hover {
+    border-color: #0CCA4A;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#major:hover {
+    border-color: #fecc02;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#minor:hover {
+    border-color: #f37338;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#beta:hover {
+    border-color: #634779;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#smallbeta:hover {
+    border-color: #ca4edd;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+ 
+#alpha:hover {
+    border-color: #993300;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#smallalpha:hover {
+    border-color: #c45911;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#notfixed:hover {
+    border-color: #ff0000;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#inprogress:hover {
+    border-color: #ff6600;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#intended:hover {
+    border-color: #ffd900;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#fixed:hover {
+    border-color: #0fb100;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#bug:hover {
+    border-color: #76c4eb;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+.badge-glitch {
+    background-color: #2f5fff;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-bug {
+    background-color: #76c4eb;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-ultimate {
+    background-color: #0CCA4A;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-major {
+    background-color: #fecc02;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-minor {
+    background-color: #f37338;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-ultimate {
+    background-color: #fecc02;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-beta {
+    background-color: #634779;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-smallbeta {
+    background-color: #ca4edd;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-alpha {
+    background-color: #993300;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-smallalpha {
+    background-color: #c45911;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-fixed {
+    background-color: #0fb100;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.badge-intended {
+    background-color: #ffd900;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-inprogress {
+    background-color: #ff6600;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-notfixed {
+    background-color: #ff0000;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.download {
+    background-color: #3f6cc5;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+h3 span {
+    background:#ffffff; 
+    padding:0 10px; 
+}
+
+#major-heading {
+    width: 100%; 
+    text-align: left; 
+    border-bottom: 1.5px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+.badge-channel {
+    background-color: #6b7ae8ab;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}

@@ -15,8 +15,8 @@
         <h1 id="title"><u>Reporting Bugs & Glitches</u></h1>
         <div id="container">
             <h3 id="major-heading"><span><b>HOW TO REPORT A BUG</b></span></h3>
-            <p>To report a bug/glitch, you can either direct message us on Discord (Sonthoi2101#1987) - (Tom140112#7751) or join my Discord <a href="https://discord.gg/2zG9WNbHER">server</a> and go to the forum <span class="badge-channel">submit-feedbacks</span>. You should find a post that says Lemonoid Updates, that's the one!
-If you want to report a bug/glitch or multiple bugs/glitches, you can provide certain informations about it, such as:</p>
+            <p>To report a bug/glitch, you can either direct message us on Discord (Sonthoi2101#1987) - (Tom140112#7751) or join our Discord <a href="https://discord.gg/2zG9WNbHER">server</a> and go to the forum <span class="badge-channel">bug-reporting/beta-bug-reporting</span>. 
+If you want to report a bug/glitch or multiple bugs/glitches, you can provide certain informations about it, such as:</p>                
             <ul>
                 <li>How to replicate the bug</li>
                 <li>A detailed description of the bug</li>
@@ -26,38 +26,14 @@ If you want to report a bug/glitch or multiple bugs/glitches, you can provide ce
             <br>
             <h3 id="major-heading"><span><b>ALL DETECTED BUGS</b></span></h3>
             <p style="text-align: center;">Bugs are shown here. Report one and see how can we fix that too!</p>
-            <div class="card" id="notfixed">
-                <div class="container">
-                    <h3><b><span class="badge-bug">Bug</span> <span class="badge-notfixed">Not fixed</span> Achievements broadcaster bug</b></h3>
-                    <p>When you complete an achievement, the broadcaster won't show. Only the broadcaster will work when you open up the Achievements menu. I've already tried to fix this before but no clue. This was a leftover bug that I never wanna fix, so it stays here, forever maybe.</p>
-                </div>
-            </div>
-
-            <div class="card" id="notfixed">
-                <div class="container">
-                    <h3><b><span class="badge-bug">Bug</span> <span class="badge-notfixed">Not fixed</span> Empty name bug</b></h3>
-                    <p>This bug occurs when you set an empty name, in which the crash script will not run even though I set it to be. Can't really sure if this is fixed after because I always forget.</p>
-                </div>
-            </div>
-
-            <div class="card" id="inprogress">
-                <div class="container">
-                    <h3><b><span class="badge-bug">Bug</span> <span class="badge-inprogress">In progress</span> Save Code encoder bug</b></h3>
-                    <p>The encoder generates strings of "10631063...". I don't know why this happens, or maybe it could've been from the code loader itself. I'm still trying to work with this poop, so maybe it will be fixed in the future.</p>
-                </div>
-            </div>
+            <p style="text-align: center;">There are currently no not-fixed bugs in the game currently. Woohoo!</p>
             
+
+            <!--
             <div class="card" id="intended">
                 <div class="container">
-                    <h3><b><span class="badge-glitch">Glitch</span> <span class="badge-intended">Intended</span> Screen flashes after closing the loading menu</b></h3>
-                    <p>When the loading bar is full, the close button is still there, meaning you can quit the game anytime. The script doesn't stop, so the background flashes. This isn't a minor gitch, but it bugs me out sometimes.</p>
-                </div>
-            </div>
-            <!--
-            <div class="card" id="minor">
-                <div class="container">
-                    <h3><b>example bug <span class="badge-minor">Being fixed</span></b></h3>
-                    <p>something doesnt work </p>
+                    <h3><b><span class="badge-glitch">type</span> <span class="badge-intended">Intended</span> name</b></h3>
+                    <p>desc</p>
                 </div>
             </div>
             -->
@@ -79,14 +55,13 @@ If you want to report a bug/glitch or multiple bugs/glitches, you can provide ce
 
             <div class="card" id="fixed">
                 <div class="container">
-                    <h3><b><span class="badge-glitch">Glitch</span> <span class="badge-fixed">Fixed</span> Lag when killing more big lemons (originally called "Lemon Overload")</b></h3>
+                    <h3><b><span class="badge-bug">Bug</span> <span class="badge-fixed">Fixed</span> Lemons still spawn after game over screen</b></h3>
                     <p>
                         <ul>
-                            <li>Recorded in "<em>unknown version</em>"</li>
-                            <li>First attempt in "ver1.0.1"</li>
-                            <li>Fixed in "snapshot01w06a-build3"</li>
+                            <li>Recorded in "Alpha 1.2.1"</li>
+                            <li>Fixed in "Alpha 1.2.2"</li>
                         </ul>
-                    Killing more and more big lemons will result in your game lagging to death. This bug made the game stupidly unplayable, so I have to think of a way of fixing it too. After many unsuccessful tries, it worked out. Welp, congratulations.
+                    When you died, the game over screen showed up but the Lemons still spawns for a few moments then stop (when the stop all block worked). This bug happens to cause by us accidentially use the forever loop instead of the repeat until loop =)
                     </p>
                 </div>
             </div>
